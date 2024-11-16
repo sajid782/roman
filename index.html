@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPER - Manage Your Customers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <a href="#" class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+                APPER
+            </a>
+            <button class="hamburger" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 12h18M3 6h18M3 18h18"/>
+                </svg>
+            </button>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#hero-section-1">About Us</a>
+                <a href="#sajid-main-container">Services</a>
+                <a href="#container-faq">FAQ</a>
+                <a href="#">Pricing</a>
+                <a href="#"></a>
+                <a href="#container-faq">Contact</a>
+                <a href="#contact-form" class="get-started">GET STARTED</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Partner in  
+                    <span>Research Writing</span><br>and Academic Support</h1>
+                <p>At [Your Company Name], we focus on delivering expert quality research writing services as may be needed by students, researchers, and academicians.</p>
+                <div class="store-buttons">
+                    <a href="#" class="store-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                          </svg>
+                        Call Now
+                    </a>
+                    <a href="#" class="store-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.827.746 5.501 2.09 7.879L.14 31.86l7.938-1.945A15.907 15.907 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm8.28 23.72c-.353.992-1.769 1.883-2.722 1.968-.698.062-1.571.282-4.816-.982-4.05-1.58-6.652-5.736-6.86-6.016-.208-.282-1.63-2.168-1.63-4.14 0-1.974 1.03-2.946 1.398-3.35.367-.403.79-.482 1.053-.482h.792c.262 0 .604-.07.937.698.353.767 1.198 2.946 1.29 3.159.093.212.155.458.031.739-.124.282-.187.457-.374.699-.187.242-.39.543-.556.731-.187.198-.388.413-.166.794.222.382.986 1.623 2.119 2.632 1.454 1.29 2.68 1.684 3.062 1.877.384.194.607.165.836-.103.229-.27.946-1.103 1.197-1.482.25-.378.498-.313.832-.186.332.125 2.092.986 2.452 1.165.36.18.604.27.695.418.096.144.096.939-.257 1.93z"/>
+                          </svg>
+                          
+                        Whatsapp
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="contact-form" id="contact-form">
+                <form id="contactForm" action="email.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" class="form-input" required placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" class="form-input" required placeholder="Enter your email">
+                    </div>
+                    <div class="form-group" style="max-width: 466px; overflow-x: hidden;">
+                        <label for="message">Message</label>
+                        <textarea id="message"  class="form-input" rows="2" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="wave"></div>
+    </section>
+
+    <section class="service-section">
+        <div class="container-sajidkhan">
+            <div class="content-left">
+                <h1 class="section-title"> Admission Proposal <b style="color: var(--primary);">Writing</b></h1>
+                <p class="section-description">An admission proposal is the first and critical step you take toward obtaining entry into the most desired academic program. In other words, it is a document that serves as an endorsement of your passion, ability to excel academically, and vision in terms of research. The expert writers help in:
+                </p>
+                
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 6V19M5 12H19" stroke-linecap="round"/>
+                            </svg>
+                            <span class="skill-name">Personal Statement & SOP</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" stroke-linecap="round"/>
+                            </svg>
+                            <span class="skill-name">Research Proposal Writing</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 6V12M12 12V18M12 12H18M12 12H6" stroke-linecap="round"/>
+                            </svg>
+                            <span class="skill-name">Project and Thesis Ideas</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2M12 12h.01M12 16h.01" stroke-linecap="round"/>
+                            </svg>
+                            <span class="skill-name">Detailed Action Plan</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 6L3 12L12 18L21 12L12 6Z" stroke-linecap="round"/>
+                            </svg>
+                            <span class="skill-name">Research Justification</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-buttons">
+                    <a href="#contact-form" class="contact-btn-sajid primary-btn">Get Started</a>
+                    <a href="#contact-form" class="contact-btn-sajid secondary-btn">Learn More</a>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <div class="service-image">
+                    <img src="roji.png" alt="Service Representative">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="hero-section-1" id="hero-section-1">
+        <div class="container-sajid-1">
+            <div class="phone-container">
+                <img src="rev.jpeg" alt="Main App Interface" class="phone-image-large" height="200px" width="300px" style="border-radius: 20px;">
+                <!--<img src="juni.gif" alt="Secondary App Interface" class="phone-image-small">-->
+            </div>
+            <div class="content">
+                <h1 class="title-1">Synopsis<span> Writing</span></h1>
+                <p class="description-1">
+                    An interesting synopsis should be the basis of any successful research work, thesis, or dissertation. Here, you have the opportunity to outline, in clear detail, the aims, objectives, methodology, and expected outcomes of your research. All this should be done both succinctly and compellingly. Our service include:
+
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Expected Outcomes</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Objectives</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Methodology</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="2" y1="12" x2="22" y2="12"/>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Literature Review</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="cta-button-1">Get Start</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="thesis-section">
+        <div class="thesis-container">
+            <div class="thesis-content">
+                <h2>Thesis Writing <b style="color: var(--primary);">Assistance</b></h2>
+                <p>Thesis marks an important step in your academic journey, and we take this walk with you through every bit of its process offering comprehensive support.</p>
+                <div class="thesis-boxes">
+                    <div class="thesis-box">
+                        <h3>Topic Selection</h3>
+                        <p>Expert guidance in choosing a relevant and impactful thesis topic.</p>
+                    </div>
+                    <div class="thesis-box">
+                        <h3>Research Proposal</h3>
+                        <p>Assistance in crafting a solid research proposal and planning.</p>
+                    </div>
+                    <div class="thesis-box">
+                        <h3>Literature Review</h3>
+                        <p>Comprehensive review of relevant literature in your field.</p>
+                    </div>
+                    <div class="thesis-box">
+                        <h3>Methodology & Analysis</h3>
+                        <p>Support in designing methodology and analyzing data.</p>
+                    </div>
+                    <div class="thesis-box">
+                        <h3>Discussions & Conclusions</h3>
+                        <p>Help in forming critical discussions and drawing conclusions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="thesis-image">
+                <img src="client.png" alt="Thesis Writing Process" class="floating">
+            </div>
+        </div>
+    </section>
+
+    <section style="text-align: center; max-width: 800px; margin: auto; padding: 0.2rem 1rem;">
+        <h1>Dissertation <b style="color: var(--primary);">Writing Services</b></h1>
+        <p>A dissertation is more than just a paper—it’s your contribution to the field.
+            <br> Our dissertation writing service ensures your work is original, academically solid, and impactful:
+        </p>
+    </section>
+    <div class="sajid-main-container" id="sajid-main-container">
+
+        <!-- Section 1 -->
+        <div class="sajid-section">
+            <div class="sajid-image-container">
+                <div class="sajid-decoration sajid-decoration-1"></div>
+                <div class="sajid-decoration sajid-decoration-2"></div>
+                <img src="5th.jpg" alt="Section 1">
+            </div>
+            <div class="sajid-content">
+                <div class="sajid-number">1</div>
+                <h2 class="sajid-title">Chapter-Wise Development (Intro, Literature, Methodology, Results, Conclusion)</h2>
+                <p class="sajid-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="sajid-section">
+            <div class="sajid-image-container">
+                <div class="sajid-decoration sajid-decoration-1"></div>
+                <div class="sajid-decoration sajid-decoration-2"></div>
+                <img src="4rth.jpg" alt="Section 2">
+            </div>
+            <div class="sajid-content">
+                <div class="sajid-number">2</div>
+                <h2 class="sajid-title">Data Collection & Statistical Analysis</h2>
+                <p class="sajid-description">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="sajid-section">
+            <div class="sajid-image-container">
+                <div class="sajid-decoration sajid-decoration-1"></div>
+                <div class="sajid-decoration sajid-decoration-2"></div>
+                <img src="3rd.jpg" alt="Section 3">
+            </div>
+            <div class="sajid-content">
+                <div class="sajid-number">3</div>
+                <h2 class="sajid-title">Thorough Research & Citations</h2>
+                <p class="sajid-description">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 4 -->
+        <div class="sajid-section">
+            <div class="sajid-image-container">
+                <div class="sajid-decoration sajid-decoration-1"></div>
+                <div class="sajid-decoration sajid-decoration-2"></div>
+                <img src="feedback.jpg" alt="Section 4">
+            </div>
+            <div class="sajid-content">
+                <div class="sajid-number">4</div>
+                <h2 class="sajid-title">Expert Review & Feedback</h2>
+                <p class="sajid-description">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur 
+                    magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="gradient-section-1">
+        <div class="section-header">
+          <h2 style="background-color: #fff; color: var(--primary);">Papers Writing Services</h2>
+          
+          <p style="color: #000;">Our  paper services include drafting, revising, and everything else until publication. We ensure that you present your research clearly and professionally according to all aspects of academic requirements:
+        </p>
+        </div>
+    
+        <div class="slider-container">
+          <div class="slick-slider">
+            <div class="slide-box">
+              <img src="rubbu.png" alt="Nature 1">
+              <div class="slide-content">
+                <h3>Mountain Peaks</h3>
+              
+              </div>
+            </div>
+            <div class="slide-box">
+              <img src="rubbu.png" alt="Nature 2">
+              <div class="slide-content">
+                <h3>Coastal Paradise</h3>
+               
+              </div>
+            </div>
+            <div class="slide-box">
+              <img src="rubbu.png" alt="Nature 3">
+              <div class="slide-content">
+                <h3>Forest Wonders</h3>
+            
+              </div>
+            </div>
+            <div class="slide-box">
+                <img src="rubbu.png" alt="Nature 3">
+                <div class="slide-content">
+                  <h3>Forest Wonders</h3>
+             
+                </div>
+              </div>
+              <div class="slide-box">
+                <img src="rubbu.png" alt="Nature 3">
+                <div class="slide-content">
+                  <h3>Forest Wonders</h3>
+              
+                </div>
+              </div>
+              <div class="slide-box">
+                <img src="rubbu.png" alt="Nature 3">
+                <div class="slide-content">
+                  <h3>Forest Wonders</h3>
+                  
+                </div>
+              </div>
+            <div class="slide-box">
+              <img src="rubbu.png" alt="Nature 4">
+              <div class="slide-content">
+                <h3>Desert Horizons</h3>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class="faiz-unique-section">
+        <div class="faiz-container">
+            <div class="faiz-row">
+                <!-- Left Container -->
+                <div class="faiz-column faiz-left-container">
+                    <h2 class="faiz-heading">Systematic <b style="color: var(--primary);">Review</b> Papers</h2>
+                    <div class="faiz-box-container">
+                        <div class="faiz-box faiz-box-1">
+                            <span class="faiz-box-icon" role="img" aria-label="Star"></span>
+                            <p>Choice of Databases & Search Strategy</p>
+                        </div>
+                        <div class="faiz-box faiz-box-2">
+                            <span class="faiz-box-icon" role="img" aria-label="Clover"></span>
+                            <p>Criteria for Inclusion and Exclusion of Studies</p>
+                        </div>
+                        <div class="faiz-box faiz-box-3">
+                            <span class="faiz-box-icon" role="img" aria-label="Sun"></span>
+                            <p>Extraction of Data and Assessment of Quality</p>
+                        </div>
+                        <div class="faiz-box faiz-box-4">
+                            <span class="faiz-box-icon" role="img" aria-label="Flower"></span>
+                            <p>If clear (Synthesis & Meta-Analysis)</p>
+                        </div>
+                        <div class="faiz-box faiz-box-5">
+                            <span class="faiz-box-icon" role="img" aria-label="Crystal Ball"></span>
+                            <p>Transparent structure and academic reporting</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Container -->
+                <div class="faiz-column faiz-right-container">
+                    <h2 class="faiz-heading">Our Process <b style="color: var(--primary);">Simple & Effective</b></h2>
+                    <div class="faiz-expandable-container">
+                        <div class="faiz-expandable-box">
+                            <div class="faiz-expandable-header" tabindex="0" role="button" aria-expanded="false">
+                                <span>Submit Your Request</span>
+                                <span class="faiz-chevron">▼</span>
+                            </div>
+                            <div class="faiz-expandable-content">
+                                <p>Get started by filling out our easy-to-use order form or contact us via email for a custom consultation.Provide details of your project and any specific requirements.</p>
+                            </div>
+                        </div>
+                        <div class="faiz-expandable-box">
+                            <div class="faiz-expandable-header" tabindex="0" role="button" aria-expanded="false">
+                                <span>Get a Customized Quote</span>
+                                <span class="faiz-chevron">▼</span>
+                            </div>
+                            <div class="faiz-expandable-content">
+                                <p>After reviewing your request, we provide transparent, no-obligation information tailored to your project complexity and timeline..</p>
+                            </div>
+                        </div>
+                        <div class="faiz-expandable-box">
+                            <div class="faiz-expandable-header" tabindex="0" role="button" aria-expanded="false">
+                                <span>Collaborative Writing Process</span>
+                                <span class="faiz-chevron">▼</span>
+                            </div>
+                            <div class="faiz-expandable-content">
+                                <p>We will assign an experienced writer/reviewer for your project. You can contact them throughout the process to provide feedback and ensure the project stays on track.</p>
+                            </div>
+                        </div>
+                        <div class="faiz-expandable-box">
+                            <div class="faiz-expandable-header" tabindex="0" role="button" aria-expanded="false">
+                                <span>Receive Your Completed Work</span>
+                                <span class="faiz-chevron">▼</span>
+                            </div>
+                            <div class="faiz-expandable-content">
+                                <p>Once your letter, proposal, presentation, or manuscript is ready, we will deliver it to you in a timely manner. We also offer modifications as needed to ensure they meet your expectations.</p>
+                            </div>
+                        </div>
+                        <div class="faiz-expandable-box">
+                            <div class="faiz-expandable-header" tabindex="0" role="button" aria-expanded="false">
+                                <span>Submit & Succeed</span>
+                                <span class="faiz-chevron">▼</span>
+                            </div>
+                            <div class="faiz-expandable-content">
+                                <p>Whether you are submitting your paper to a journal, conference, or your university, we make sure it is book-ready or ready.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="unique-section">
+        <div  style="max-width: 800px; margin:20px auto; text-align: center;">
+                 <h1>Bibliometric Review Papers</h1>
+                 <p>Some papers are in the form of a bibliometric reviews that analyze research trends, citation patterns and influential studies quantitatively. We offer bibliometric services like:
+                </p>
+        </div>
+        <div class="content-wrapper">
+            <div class="image-container">
+                <img src="woo].jpg" alt="Featured Image" />
+            </div>
+            <div class="boxes-container">
+                <div class="box box-1">
+                
+                    <h3>Search in Database & Extraction of the data</h3>
+                </div>
+                <div class="box box-2">
+                    
+                    <h3>Title Networking & Citation Analysis</h3>
+                </div>
+                <div class="box box-3">
+                   
+                    <h3>Trend Analysis (Co-authorship, Keywords, Citations)</h3>
+                </div>
+                <div class="box box-4">
+                   
+                    <h3>Commentary & Analysis</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <section class="main-section-drop">
+        <div class="content-container-drop">
+            <div class="steps-container">
+                <div class="section-title-drop">
+                    <h2 class="highlight">Conference Papers</h2>
+                    <h2 style="font-size: 1rem;">We make sure your paper is up to par with what is needed to present at an academic conference if you are preparing for one</h2>
+                </div>
+                
+                <div class="steps-list">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <div class="step-title">CONFERENCE PAPER WRITING & EDITING</div>
+                        </div>
+                    </div>
+                    
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <div class="step-title">HELP WITH SUBMITTING ABSTRACTS</div>
+                        </div>
+                    </div>
+                    
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <div class="step-title">POSTER PRESENTATIONS</div>
+                        </div>
+                    </div>
+                    
+                    <div class="step-item">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <div class="step-title">PPT PREPARATION & DESIGN</div>
+                        </div>
+                    </div>
+                    
+                    <div class="step-item">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <div class="step-title">MA RESEARCH PRESENTATION GUIDELINES</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <div id="map">
+                    <img src="map.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="max-width: 100%;  margin: auto;">
+        <img src="Manual.png" alt="" width="100%">
+    </section>
+
+    <div class="container-sodu">
+        <div class="section-heading">
+          <h2>Trusted by Businesses Worldwide</h2>
+          <p>See what our clients say about us across different platforms</p>
+        </div>
+        
+        <div class="rating-grid">
+          <div class="rating-card">
+            <div class="logo-container">
+                <svg width="54" height="54" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#6C63FF" stroke-width="3">
+                    <!-- Medal Top Part -->
+                    <path d="M30 10 L50 10 L60 30 L20 30 Z" />
+                    <path d="M30 10 L25 30" stroke-linecap="round" />
+                    <path d="M50 10 L55 30" stroke-linecap="round" />
+                  
+                    <!-- Ribbon Connector -->
+                    <path d="M40 30 L50 50 L60 30" />
+                  
+                    <!-- Star at the Bottom -->
+                    <path d="M50 55 L53 65 L63 65 L55 70 L58 80 L50 73 L42 80 L45 70 L37 65 L47 65 Z" />
+                  </svg>
+                  
+            </div>
+            <div class="platform-name">Veteran Specialists</div>
+            <div class="rating">
+              <span class="rating-number" style="text-align: center;">
+                Our professionals are researchers, writers, and editors with many years of experience in a variety of academic fields. You will work with professionals who knew the ins and outs of academic writing.
+    
+              </span>
+              <span class="star"></span>
+            </div>
+          </div>
+    
+          <div class="rating-card">
+            <div class="logo-container">
+                <svg width="54" height="54" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Outer Circle -->
+                    <circle cx="50" cy="50" r="45" fill="#E6F0FA" />
+                  
+                    <!-- Inner Circle -->
+                    <circle cx="50" cy="50" r="35" fill="#6C63FF" />
+                  
+                    <!-- Person Icon -->
+                    <path d="M50 30 C54 30 58 34 58 38 C58 42 54 46 50 46 C46 46 42 42 42 38 C42 34 46 30 50 30 Z" fill="none" stroke="#0A2E57" stroke-width="2"/>
+                    <path d="M42 52 C42 50 46 48 50 48 C54 48 58 50 58 52" fill="none" stroke="##6C63FF" stroke-width="2"/>
+                  
+                    <!-- Hands Icon -->
+                    <path d="M35 65 Q30 55 30 50 Q30 45 40 45" fill="none" stroke="#0A2E57" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M65 65 Q70 55 70 50 Q70 45 60 45" fill="none" stroke="#0A2E57" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                  
+            </div>
+            <div class="platform-name">Personalized Attention</div>
+            <div class="rating">
+              <span class="rating-number" style="text-align: center;">We understand that every project is different and therefore offer tailored services to address your specific needs and academic guidelines.
+            </span>
+              <span class="star"></span>
+            </div>
+          </div>
+    
+          <div class="rating-card">
+            <div class="logo-container">
+                <svg width="54" height="54" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Magnifying Glass Circle -->
+                    <circle cx="40" cy="40" r="25" stroke="#6C63FF" stroke-width="5" fill="none" />
+                  
+                    <!-- Magnifying Glass Handle -->
+                    <rect x="60" y="60" width="20" height="5" transform="rotate(45 60 60)" fill="#6C63FF" />
+                  
+                    <!-- Line Chart -->
+                    <path d="M25 35 L35 30 L45 40 L55 28" stroke="#6C63FF" stroke-width="2" fill="none" />
+                    
+                    <!-- Data Points -->
+                    <circle cx="25" cy="35" r="2" fill="#6C63FF" />
+                    <circle cx="35" cy="30" r="2" fill="#6C63FF" />
+                    <circle cx="45" cy="40" r="2" fill="#6C63FF" />
+                    <circle cx="55" cy="28" r="2" fill="#6C63FF" />
+                  </svg>
+                  
+            </div>
+            <div class="platform-name">Quality Research</div>
+            <div class="rating">
+              <span class="rating-number" style="text-align: center;">All projects are researched and written as per the best academic standards. Our emphasis is on providing original work, clear writing and coherent content.</span>
+              <span class="star"></span>
+            </div>
+          </div>
+    
+          <div class="rating-card">
+            <div class="logo-container">
+                <svg width="54" height="54" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Clock Circle -->
+                    <circle cx="30" cy="30" r="15" stroke="#6C63FF" stroke-width="2" fill="none" />
+                    
+                    <!-- Clock Hands -->
+                    <line x1="30" y1="30" x2="30" y2="22" stroke="#6C63FF" stroke-width="2" />
+                    <line x1="30" y1="30" x2="36" y2="30" stroke="#6C63FF" stroke-width="2" />
+                  
+                    <!-- Truck Body -->
+                    <rect x="50" y="40" width="30" height="15" fill="#6C63FF" />
+                    
+                    <!-- Truck Cabin -->
+                    <rect x="45" y="45" width="10" height="10" fill="#6C63FF" />
+                  
+                    <!-- Truck Wheels -->
+                    <circle cx="55" cy="60" r="3" fill="#6C63FF" />
+                    <circle cx="75" cy="60" r="3" fill="#6C63FF" />
+                  
+                    <!-- Speed Lines -->
+                    <line x1="35" y1="50" x2="45" y2="50" stroke="#6C63FF" stroke-width="2" />
+                    <line x1="35" y1="55" x2="45" y2="55" stroke="#6C63FF" stroke-width="2" />
+                  </svg>
+                  
+            </div>
+            <div class="platform-name">Timely Delivery </div>
+            <div class="rating">
+              <span class="rating-number" style="text-align: center;">We know the value of time and hence deliver all your projects on time without compromising quality.</span>
+              <span class="star"></span>
+            </div>
+          </div>
+    
+          <div class="rating-card">
+            <div class="logo-container">
+                <svg width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Tag Shape -->
+                    <path d="M15 5 L45 5 L50 15 L50 45 L15 45 L15 5 Z" fill="#6C63FF" stroke="black" stroke-width="1.5" />
+                  
+                    <!-- Hole in the Tag -->
+                    <circle cx="17" cy="8" r="2" fill="black" />
+                  
+                    <!-- Rupee Symbol -->
+                    <text x="32" y="30" font-family="Arial" font-size="14" fill="white" font-weight="bold">₹</text>
+                  
+                    <!-- Label Text (Optional) -->
+                    <text x="32" y="40" font-family="Arial" font-size="6" fill="white" text-anchor="middle">Reasonable</text>
+                  </svg>
+                  
+                  
+            </div>
+            <div class="platform-name">Reasonable Prices</div>
+            <div class="rating">
+              <span class="rating-number" style="text-align: center;">We have different pricing packages that are affordable yet serve the purpose without compromising on anything.
+            </span>
+              <span class="star"></span>
+            </div>
+          </div>
+    
+          <div class="rating-card">
+            <div class="logo-container">
+                <svg width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Circle Background -->
+                    <circle cx="27" cy="27" r="25" fill="#6C63FF" />
+                  
+                    <!-- Headset -->
+                    <path d="M15 27 C15 20 20 15 27 15 C34 15 39 20 39 27" fill="none" stroke="white" stroke-width="2" />
+                    <path d="M15 27 L15 32 C15 36 18 39 22 39" fill="none" stroke="white" stroke-width="2" />
+                    <path d="M39 27 L39 32 C39 36 36 39 32 39" fill="none" stroke="white" stroke-width="2" />
+                  
+                    <!-- Clock -->
+                    <circle cx="27" cy="27" r="8" fill="white" />
+                    <line x1="27" y1="22" x2="27" y2="27" stroke="#6C63FF" stroke-width="1.5" />
+                    <line x1="27" y1="27" x2="30" y2="29" stroke="#6C63FF" stroke-width="1.5" />
+                  
+                    <!-- Text 24/7 -->
+                    <text x="27" y="50" font-family="Arial" font-size="6" fill="white" text-anchor="middle">24/7 Support</text>
+                  </svg>
+                  
+            </div>
+            <div class="platform-name">24/7 Customer Support</div>
+            <div class="rating">
+              <span class="rating-number" style="text-align: center;">Our customer service team is on standby all the time..</span>
+              <span class="star"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-faq" id="container-faq">
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2 style="margin-bottom: 1.2rem;">Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <div class="faq-question">What services do you provide?</div>
+                <div class="faq-answer">We offer a wide range of services including web development, mobile app development, UI/UX design, and digital marketing solutions.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How can I get started?</div>
+                <div class="faq-answer">Getting started is easy! Simply fill out the contact form on this page, and our team will get back to you within 24 hours to discuss your project.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What are your working hours?</div>
+                <div class="faq-answer">We are available Monday through Friday, 9:00 AM to 6:00 PM EST. For urgent matters, we also provide emergency support outside these hours.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Do you offer custom solutions?</div>
+                <div class="faq-answer">Yes, we specialize in creating custom solutions tailored to your specific needs and requirements. Each project is unique and receives personalized attention.</div>
+            </div>
+        </div>
+
+        <!-- Contact Form Section -->
+        <div class="contact-section">
+            <h2 style="margin-bottom: 1.2rem;">Contact Us</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                    <div class="error-message">Please enter your name</div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <div class="error-message">Please enter a valid email address</div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" required>
+                    <div class="error-message">Please enter a subject</div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                    <div class="error-message">Please enter your message</div>
+                </div>
+                <button type="submit">
+                    Send Message
+                    <div class="spinner"></div>
+                </button>
+                <div class="success-message">Thank you! Your message has been sent successfully.</div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="contact-grid">
+                <div class="contact-item-sajidd fade-in">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-info">
+                        <a href="mailto:info@gmail.com">info@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item-sajidd fade-in" style="animation-delay: 0.2s;">
+                    <i class="fas fa-phone"></i>
+                    <div class="contact-info">
+                        <a href="tel:+918000828084">+918000828084</a>
+                    </div>
+                </div>
+                <div class="contact-item-sajidd fade-in" style="animation-delay: 0.4s;">
+                    <i class="fas fa-comments"></i>
+                    <div class="contact-info">
+                        <a href="#" class="pulse">Live Chat</a>
+                    </div>
+                </div>
+                <div class="contact-item-sajidd fade-in" style="animation-delay: 0.6s;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="contact-info">
+                        <a href="#">Kiran path 38 ram nagar puliya jaipur Rajasthan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 by Arvian Business Solutions. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="floating-buttons">
+        <div class="float-btn whatsapp-btn">
+            <span class="btn-text">Chat on WhatsApp</span>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 48 48">
+                <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
+                </svg>
+              
+              
+              
+        </div>
+        <div class="float-btn call-btn">
+            <span class="btn-text">Call Us</span>
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="#ffffff">
+                <path d="M20.01 15.38C18.78 15.38 17.59 15.18 16.48 14.82C16.13 14.7 15.74 14.79 15.47 15.06L13.9 17.03C11.07 15.68 8.42 13.13 7.01 10.2L8.96 8.54C9.23 8.26 9.31 7.87 9.2 7.52C8.83 6.41 8.64 5.22 8.64 3.99C8.64 3.45 8.19 3 7.65 3H4.19C3.65 3 3 3.24 3 3.99C3 13.28 10.73 21 20.01 21C20.72 21 21 20.37 21 19.82V16.37C21 15.83 20.55 15.38 20.01 15.38Z"/>
+            </svg>
+        </div>
+    </div>
+
+    <div class="scroll-top">
+        <img width="30" height="30" src="https://img.icons8.com/dotty/80/circled-up-2.png" alt="circled-up-2"/>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+     // Intersection Observer for animations
+ const observer = new IntersectionObserver((entries) => {
+     entries.forEach(entry => {
+         if (entry.isIntersecting) {
+             entry.target.style.opacity = '1';
+             entry.target.style.transform = 'translateY(0)';
+         }
+     });
+ }, { threshold: 0.1 });
+
+ document.querySelectorAll('.hero-text').forEach(el => {
+     el.style.opacity = '0';
+     el.style.transform = 'translateY(20px)';
+     el.style.transition = 'all 0.6s ease-out';
+     observer.observe(el);
+ });
+
+    </script>
+
+<script>
+     $(window).on('load', function() {
+    var slider = $('.slick-slider');
+    
+    slider.slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 4,  // Show 4 slides at a time
+        slidesToScroll: 1, // Scroll 1 slide at a time
+        autoplay: true,   // Enable autoplay if needed
+        autoplaySpeed: 2000, // Speed of the autoplay
+        arrows: true,     // Show arrows for navigation
+        dots: true,       // Show dots for navigation
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    arrows: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true
+                }
+            }
+        ]
+    });
+});
+
+</script>
+</body>
+</html>
